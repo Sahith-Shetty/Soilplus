@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "SoilApp": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SoilApp"
+    }
+  },
+  "defaultProject": "SoilApp",
+  "cli": {
+    "analytics": "edbc8865-b881-48ac-b2f5-c44a4621ea90"
+  }
 }
