@@ -1,2 +1,3 @@
 FROM nginx:1.17.1-alpine
-ls
+RUN ls
+RUN pwd
