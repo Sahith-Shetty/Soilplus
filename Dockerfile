@@ -1,7 +1,6 @@
 FROM node:12.7-alpine AS build
 WORKDIR /usr/src/soilplus
 COPY package.json ./
-RUN npm install -g
 COPY . .
 RUN npm run build
 
