@@ -5,7 +5,6 @@ WORKDIR /usr/src/soilplus
 
 COPY package.json ./
 COPY . .
-RUN npm install
 RUN npm install -g grpcli grpc
 
 FROM nginx:1.17.1-alpine
