@@ -1,5 +1,5 @@
 FROM node:12.7-alpine
-WORKDIR -p /app
+WORKDIR /app
 USER root
 COPY . /app
 RUN chmod 755 -R /app
