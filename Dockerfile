@@ -5,7 +5,6 @@ WORKDIR /app
 USER root
 RUN whoami
 COPY . /app
-COPY package.json ./
 RUN chmod 755 -R  /app
 RUN npm install -g --allow-root
 RUN chown -R 1000:1000 /app
