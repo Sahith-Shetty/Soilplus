@@ -3,6 +3,7 @@ FROM node:12.7-alpine AS build
 WORKDIR /app
 
 USER root
+RUN whoami
 COPY . /app
 COPY package.json ./
 
